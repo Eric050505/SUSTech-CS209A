@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Questions Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Java Programming Questions</h1>
+
+<canvas id="chart"></canvas>
+
+<script>
+    fetch('/questions?tags=java')
+        .then(response => response.json())
+        .then(data => {
+            const labels = data.map(item => item.title); // 获取问题标题
+            const values = data.map(item => item.upVotes); // 获取问题的upvotes
+
+            const ctx = document.getElementById('chart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Upvotes',
+                        data: values,
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                }
+            });
+        });
+</script>
+</body>
+</html>
