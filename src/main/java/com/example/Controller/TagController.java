@@ -21,4 +21,9 @@ public class TagController {
     public List<TagDTO> getTopNTags(@RequestParam int n) {
         return questionService.getTopNTags(n);
     }
+
+    @GetMapping("/getTopByUser")
+    public List<TagDTO> getTopByUser(@RequestParam int n) {
+        return questionService.getTopByUser(n);
+    }
 }

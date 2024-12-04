@@ -40,6 +40,10 @@ public class QuestionService {
         return questionMapper.getTopNTags(n);
     }
 
+    public List<TagDTO> getTopByUser(int n) {
+        return questionMapper.getTopByUser(n);
+    }
+
     public List<ErrorDTO> getTopNErrors(int n) {
 
         List<Map<String, String>> questions = questionMapper.getAllQuestions();
