@@ -15,6 +15,7 @@ public interface QuestionMapper {
     @Select("SELECT * from Questions WHERE question_id = #{id}")
     Question getQuestionById(@Param("id") Integer id);
 
+    // -- 问题一：寻找最常被问的n个tag
     @Select("""
              SELECT tag, COUNT(*) AS hot
              FROM Questions,
@@ -25,16 +26,7 @@ public interface QuestionMapper {
             """)
     List<TagDTO> getTopNTags(int n);
 
-
-    @Select("SELECT title, body FROM Questions")
-    List<Map<String, String>> getAllQuestions();
-
-    @Select("SELECT question_id FROM Questions WHERE title = #{title}")
-    int getQuestionsIdByTitle (String title);
-
-    @Select("SELECT GROUP_CONCAT(body SEPARATOR ' ') AS concatenated_answers FROM Answers WHERE question_id = #{questionId}")
-    String getAnswersByQuestionId(Integer questionId);
-
+    // -- 问题二：寻找高评分用户参与度最高的n个tag
     @Select("""
             WITH HighRepUserEngageTags AS (
                 WITH HighReputationUsers AS (
@@ -63,5 +55,17 @@ public interface QuestionMapper {
             LIMIT #{n};
             """)
     List<TagDTO> getTopByUser(@Param("n") Integer n);
+
+    // -- 问题三：寻找最常出现的n个错误
+    @Select("SELECT GROUP_CONCAT(body SEPARATOR ' ') AS concatenated_answers FROM Answers WHERE question_id = #{questionId}")
+    String getAnswersByQuestionId(Integer questionId);
+
+    @Select("SELECT question_id, title, body FROM Questions")
+    List<Map<String, Object>> getAllQuestions_quicker();
+
+
+
+
+
 
 }
