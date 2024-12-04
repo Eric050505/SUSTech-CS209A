@@ -1,5 +1,4 @@
 package com.example.DTO;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +6,7 @@ import lombok.Setter;
 @Setter
 @Getter
 @AllArgsConstructor
-public class TagDTO {
-    private String topic;
+public class ErrorDTO {
+    private String ErrorMessage;
     private int hot;
 }

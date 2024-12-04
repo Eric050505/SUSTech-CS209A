@@ -1,16 +1,16 @@
 package com.example.DTO;
 
 import com.example.Model.Question;
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
 
-@Data
-@AllArgsConstructor
+@Getter
+@Setter
 public class QuestionDTO {
-    private Integer questionID;
+    private Integer questionId;
     private String title;
     private String body;
     private List<String> tags;
@@ -23,7 +23,7 @@ public class QuestionDTO {
     private Integer acceptedAnswerId;
 
     public QuestionDTO(Question question, List<String> tags) {
-        this.questionID = question.getQuestionID();
+        this.questionId = question.getQuestionId();
         this.title = question.getTitle();
         this.body = question.getBody();
         this.tags = tags;

@@ -1,22 +1,17 @@
 package com.example.Model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 import java.util.Date;
+
+import lombok.Getter;
 
 @Entity
 @Table(name = "questions")
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
 public class Question {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer questionID;
+    private Integer questionId;
 
     private String title;
     private String body;
