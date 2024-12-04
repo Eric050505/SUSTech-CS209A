@@ -22,7 +22,7 @@ public interface QuestionMapper {
                   JSON_TABLE(tags, '$[*]' COLUMNS(tag VARCHAR(255) PATH '$')) AS tag_table
              GROUP BY tag
              ORDER BY hot DESC
-             LIMIT #{n}
+             LIMIT #{n} OFFSET 1;
             """)
     List<TagDTO> getTopNTags(int n);
 
@@ -52,7 +52,7 @@ public interface QuestionMapper {
                  JSON_TABLE(tag, '$[*]' COLUMNS(weighted_tag VARCHAR(255) PATH '$')) AS tag_table
             GROUP BY weighted_tag
             ORDER BY hot DESC
-            LIMIT #{n};
+            LIMIT #{n} OFFSET 1;
             """)
     List<TagDTO> getTopByUser(@Param("n") Integer n);
 
