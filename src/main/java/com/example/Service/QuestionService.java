@@ -1,15 +1,10 @@
 package com.example.Service;
 
 import com.example.DTO.ErrorDTO;
-import com.example.DTO.QuestionDTO;
 import com.example.DTO.TagDTO;
 import com.example.Mapper.QuestionMapper;
-import com.example.Model.Question;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import com.fasterxml.jackson.core.type.TypeReference;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -66,7 +61,7 @@ public class QuestionService {
                 "StackOverflowError", "ZipError", "UnknownError"
         );
 
-        List<Map<String, Object>> results = questionMapper.getAllQuestions_quicker();
+        List<Map<String, Object>> results = questionMapper.getAllQuestions();
         Map<String, Integer> errorFrequency = new HashMap<>(); // 统计错误出现的次数
         Pattern pattern = Pattern.compile(String.join("|", errorKeywords), Pattern.CASE_INSENSITIVE);
 
@@ -101,6 +96,30 @@ public class QuestionService {
         return topErrors;
     }
 
+    public TagDTO getTagFrequency(String tag) {
+        return questionMapper.getTopicFrequency(tag);
+    }
 
+    public ErrorDTO getErrorFrequency(String error) {
+        List<Map<String, Object>> results = questionMapper.getAllQuestions();
+        int frequency = 0;
+        Pattern pattern = Pattern.compile(String.join("|", error), Pattern.CASE_INSENSITIVE);
 
+        for (Map<String, Object> row : results) {
+            Integer questionId = (Integer) row.get("question_id");
+            String title = (String) row.get("title");
+            String body = (String) row.get("body");
+            String answers = questionMapper.getAnswersByQuestionId(questionId);
+            String content = title + " " + body + " " + answers;
+            Matcher matcher = pattern.matcher(content);
+            while (matcher.find()) {
+                String matchedError = matcher.group();
+                if (matchedError.equalsIgnoreCase(error)) {
+                    frequency++;
+                    break;
+                }
+            }
+        }
+        return new ErrorDTO(error, frequency);
+    }
 }
