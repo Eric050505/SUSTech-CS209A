@@ -17,12 +17,12 @@ public class TagController {
 
     private final QuestionService questionService;
 
-    @GetMapping("/getTopN")
+    @GetMapping("/TopTopics")
     public List<TagDTO> getTopNTags(@RequestParam int n) {
         return questionService.getTopNTags(n);
     }
 
-    @GetMapping("/getTopByUser")
+    @GetMapping("/HighRepUserTags")
     public List<TagDTO> getTopByUser(@RequestParam int n) {
         return questionService.getTopByUser(n);
     }

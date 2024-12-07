@@ -22,8 +22,8 @@ public class AnswerController {
         return answerService.getAnswerById(answerId);
     }
 
-    @GetMapping("/getSecUserPoints")
-    public List<SectionsDTO> getSecUserPoints(@RequestParam int n,@RequestParam int x) {
+    @GetMapping("/SecUserPoints")
+    public List<SectionsDTO> getSecUserPoints(@RequestParam int n, @RequestParam int x) {
         return answerService.getSecUserPoints(n, x);
     }
 

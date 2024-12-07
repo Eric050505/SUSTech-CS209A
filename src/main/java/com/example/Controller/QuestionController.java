@@ -2,6 +2,7 @@ package com.example.Controller;
 
 import com.example.DTO.ErrorDTO;
 import com.example.DTO.QuestionDTO;
+import com.example.DTO.TagDTO;
 import com.example.Service.QuestionService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.AllArgsConstructor;
@@ -14,19 +15,22 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("/questions")
 public class QuestionController {
 
     private final QuestionService questionService;
 
-//    @GetMapping()
-//    public QuestionDTO getQuestionsById(@RequestParam Integer questionId) throws JsonProcessingException {
-//        return questionService.getQuestionById(questionId);
-//    }
-
-    @GetMapping("/getErrors")
-    public List<ErrorDTO> getTopNErrors(@RequestParam Integer n)  {
+    @GetMapping("/TopErrors")
+    public List<ErrorDTO> getTopNErrors(@RequestParam Integer n) {
         return questionService.getTopNErrors(n);
     }
 
+    @GetMapping("/TagFrequency")
+    public TagDTO getTagFrequency(@RequestParam String tag) {
+        return questionService.getTagFrequency(tag);
+    }
+
+    @GetMapping("/ErrorFrequency")
+    public ErrorDTO getErrorFrequency(@RequestParam String error) {
+        return questionService.getErrorFrequency(error);
+    }
 }
