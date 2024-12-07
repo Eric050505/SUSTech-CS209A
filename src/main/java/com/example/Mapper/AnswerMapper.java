@@ -21,6 +21,37 @@ public interface AnswerMapper {
             ON u.user_id = a.owner_user_id
             WHERE u.reputation BETWEEN #{front} AND #{back};
             """)
-   float getAverageScore(@Param("front") Integer front, @Param("back") Integer back);
+    float getAverageScore(Integer front,Integer back);
 
+
+    @Select("""
+        SELECT MAX(TIMESTAMPDIFF(HOUR, q.creation_date, a.creation_date)) AS max_time_diff
+        FROM Answers a
+        JOIN Questions q
+        ON a.question_id = q.question_id;
+        """)
+    int getMaxTimeDiff();
+
+    @Select("""
+        SELECT AVG(a.score)
+        FROM Answers a
+        JOIN Questions q
+        ON a.question_id = q.question_id
+        WHERE TIMESTAMPDIFF(HOUR, q.creation_date, a.creation_date) BETWEEN #{front} AND #{back};
+        """)
+    float getAverageScore_time(Integer front, Integer back);
+
+
+    @Select("""
+        SELECT MAX(LENGTH(body)) AS max_length
+        FROM Answers;
+        """)
+    int getLongestAnswerLength();
+
+    @Select("""
+        SELECT AVG(a.score)
+        FROM Answers a
+        WHERE LENGTH(a.body) BETWEEN #{front} AND #{back};
+        """)
+    float getAverageScore_Length(Integer front, Integer back);
 }

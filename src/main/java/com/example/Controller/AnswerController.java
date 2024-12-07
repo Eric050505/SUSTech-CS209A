@@ -27,6 +27,16 @@ public class AnswerController {
         return answerService.getSecUserPoints(n, x);
     }
 
+    @GetMapping("/getSecAnsTime")
+    public List<SectionsDTO> getSecAnsTime(@RequestParam int n,@RequestParam int x) {
+        return answerService.getSecAnsTime(n, x);
+    }
+
+    @GetMapping("/getSecAnsLength")
+    public List<SectionsDTO> getSecAnsLength(@RequestParam int n,@RequestParam int x) {
+        return answerService.getSecAnsLength(n, x);
+    }
+
 
 
 }
