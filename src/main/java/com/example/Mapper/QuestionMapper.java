@@ -61,7 +61,7 @@ public interface QuestionMapper {
     String getAnswersByQuestionId(Integer questionId);
 
     @Select("SELECT question_id, title, body FROM Questions")
-    List<Map<String, Object>> getAllQuestions_quicker();
+    List<Map<String, Object>> getAllQuestions();
 
     @Select("""
             SELECT jt.tag, COUNT(*) as frequency

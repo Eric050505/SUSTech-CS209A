@@ -15,12 +15,11 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("/questions")
 public class QuestionController {
 
     private final QuestionService questionService;
 
-    @GetMapping("/Errors")
+    @GetMapping("/TopErrors")
     public List<ErrorDTO> getTopNErrors(@RequestParam Integer n) {
         return questionService.getTopNErrors(n);
     }
@@ -28,5 +27,10 @@ public class QuestionController {
     @GetMapping("/TagFrequency")
     public TagDTO getTagFrequency(@RequestParam String tag) {
         return questionService.getTagFrequency(tag);
+    }
+
+    @GetMapping("/ErrorFrequency")
+    public ErrorDTO getErrorFrequency(@RequestParam String error) {
+        return questionService.getErrorFrequency(error);
     }
 }
