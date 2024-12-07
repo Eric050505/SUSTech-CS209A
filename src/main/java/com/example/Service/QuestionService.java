@@ -101,6 +101,8 @@ public class QuestionService {
         return topErrors;
     }
 
-
+    public TagDTO getTagFrequency(String tag) {
+        return questionMapper.getTopicFrequency(tag);
+    }
 
 }

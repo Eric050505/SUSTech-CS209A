@@ -63,7 +63,13 @@ public interface QuestionMapper {
     @Select("SELECT question_id, title, body FROM Questions")
     List<Map<String, Object>> getAllQuestions_quicker();
 
-
+    @Select("""
+            SELECT jt.tag, COUNT(*) as frequency
+            FROM Questions,
+            JSON_TABLE(tags, '$[*]' COLUMNS (tag VARCHAR(255) PATH '$')) as jt
+            WHERE tag = #{tag};
+            """)
+    TagDTO getTopicFrequency(String tag);
 
 
 
