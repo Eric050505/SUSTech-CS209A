@@ -1,0 +1,17 @@
+GET http://localhost:8080/questions?
+    questionId=79190985
+
+###
+GET http://localhost:8080/tags/getTopN?n=5
+
+###
+GET http://localhost:8080/users?
+    userId=1013
+
+###
+GET http://localhost:8080/answers?
+    answerId=79187561
+
+###
+GET http://localhost:8080/comments?
+    commentId=139634448

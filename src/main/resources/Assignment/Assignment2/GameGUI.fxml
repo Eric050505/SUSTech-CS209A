@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="782.0" prefWidth="600.0" spacing="20" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="Assignment.Assignment2.Controller.GameController">
+    <Label fx:id="mistakesLabel1" text="Score: 0"/>
+    <Label fx:id="mistakesLabel2" text="Score: 0"/>
+    <Label fx:id="currentPlayerLabel" text="Current Player: "/>
+
+    <StackPane>
+        <GridPane fx:id="gridPane" alignment="CENTER" hgap="5" vgap="5"/>
+        <Pane fx:id="linesPane" style="-fx-background-color: transparent;" mouseTransparent="true"/>
+    </StackPane>
+
+</VBox>
+

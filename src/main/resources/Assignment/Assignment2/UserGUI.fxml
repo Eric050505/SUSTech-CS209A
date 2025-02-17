@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="448.0" prefWidth="600.0" spacing="20" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Assignment.Assignment2.Controller.UserController">
+
+    <Label fx:id="textField">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+    </Label>
+    <ListView fx:id="userDetailsList" prefHeight="183.0" prefWidth="600.0" />
+    <Button onAction="#startGame" text="Find Opponents" />
+    <Button onAction="#queryHistory" text="Game History" />
+    <Button onAction="#refresh" text="Refresh Users List" />
+    <Button onAction="#logout" text="Logout" />
+
+</VBox>
