@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11e247d7-1d29-486e-af45-b2acdb32d5bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_server.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\.m2\repository" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ovk4BSAlws0uG44g1slAjF9WVq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApplicationLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CityAnalysis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EquivalenceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameClient.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GameClient1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameClient3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameClient4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice1.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice2.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice2.ChatClient1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice2.ChatClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice2.ChatServer (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab.Lab9.Practice2.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObserverPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice5_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice6_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpaceInvaderGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskSchedulerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #12.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #13.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #14.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #15.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #16.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #17.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #19.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #20.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #22.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #9.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LocalTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LocalTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StandardTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StandardTests.succeedingTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CS209AM [clean,javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CS209AM [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;OpenAPI/Swagger Code Generator.CS209A-openapi.yaml.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApplicationLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Users/Eric/IdeaProjects/CS203&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Users/Eric/IdeaProjects/CS209AM/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lab.Lab13" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\java\Lab\Lab14" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\java\Project" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\resources\Assignment\Assignment2\images" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209AM\src\main\java" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209AM\src\test\java\Assignment\Assignment1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\resources\Assignment\Assignment2" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\resources\Project" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209A\src\main\resources" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209AM\src\main\java\Assignment\Assignment2" />
+      <recent name="E:\Users\Eric\IdeaProjects\CS209AM\src\main\resources\Assignment\Assignment2" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="settings" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ApplicationLauncher">
+    <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.ApplicationLauncher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameClient1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Assignment.Assignment2.GameClient" />
+      <module name="jvacode" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Eric\Desktop\Junior I\Computer System Design and Applications A\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameClient2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Assignment.Assignment2.GameClient" />
+      <module name="jvacode" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Eric\Desktop\Computer System Design and Applications A\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameClient3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Assignment.Assignment2.GameClient" />
+      <module name="jvacode" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Eric\Desktop\Computer System Design and Applications A\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameClient4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Assignment.Assignment2.GameClient" />
+      <module name="jvacode" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Eric\Desktop\Computer System Design and Applications A\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab.Lab9.Practice2.ChatClient2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lab.Lab9.Practice2.ChatClient" />
+      <module name="jvacode" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Eric\Desktop\Computer System Design and Applications A\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture.Test" />
+      <module name="jvacode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lecture.Test" />
+      <module name="jvacode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvacode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lecture" />
+      <option name="MAIN_CLASS_NAME" value="Lecture.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalTest" type="JUnit" factoryName="JUnit">
+      <module name="jvacode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment.Assignment1.local_test_data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assignment.Assignment1.local_test_data" />
+      <option name="MAIN_CLASS_NAME" value="Assignment.Assignment1.local_test_data.LocalTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLauncher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CS209A" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Project.ApplicationLauncher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GameClient1" />
+      <item itemvalue="Application.GameClient2" />
+      <item itemvalue="Application.GameClient3" />
+      <item itemvalue="Application.GameClient4" />
+      <item itemvalue="Application.Lab.Lab9.Practice2.ChatClient2" />
+      <item itemvalue="Application.ApplicationLauncher" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="HTTP Request.generated-requests | #16" />
+      <item itemvalue="JUnit.LocalTest" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="Spring Boot.ApplicationLauncher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationLauncher" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="HTTP Request.generated-requests | #16" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11e247d7-1d29-486e-af45-b2acdb32d5bd" name="Changes" comment="" />
+      <created>1731757244376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731757244376</updated>
+      <workItem from="1731757245456" duration="6700000" />
+      <workItem from="1731766090935" duration="1395000" />
+      <workItem from="1731767499106" duration="376000" />
+      <workItem from="1731767883656" duration="200000" />
+      <workItem from="1731768091057" duration="99000" />
+      <workItem from="1731768200088" duration="1270000" />
+      <workItem from="1731769479216" duration="1281000" />
+      <workItem from="1731770773747" duration="2190000" />
+      <workItem from="1731773239360" duration="5910000" />
+      <workItem from="1731779174224" duration="486000" />
+      <workItem from="1731824155289" duration="10614000" />
+      <workItem from="1731912982173" duration="11342000" />
+      <workItem from="1731928705778" duration="1002000" />
+      <workItem from="1731929878398" duration="5699000" />
+      <workItem from="1731936634599" duration="9092000" />
+      <workItem from="1731993689726" duration="8722000" />
+      <workItem from="1732003170798" duration="7059000" />
+      <workItem from="1732020664399" duration="7506000" />
+      <workItem from="1732085217748" duration="4204000" />
+      <workItem from="1732090264488" duration="6769000" />
+      <workItem from="1732097608380" duration="1264000" />
+      <workItem from="1732101647885" duration="7026000" />
+      <workItem from="1732109110996" duration="8357000" />
+      <workItem from="1732122664087" duration="10104000" />
+      <workItem from="1732173027539" duration="10762000" />
+      <workItem from="1732203855433" duration="5430000" />
+      <workItem from="1732217378838" duration="679000" />
+      <workItem from="1732376748723" duration="4329000" />
+      <workItem from="1732382980378" duration="4612000" />
+      <workItem from="1732436999277" duration="3492000" />
+      <workItem from="1732468033704" duration="1307000" />
+      <workItem from="1732469360514" duration="6597000" />
+      <workItem from="1732504816758" duration="5933000" />
+      <workItem from="1732515345853" duration="14147000" />
+      <workItem from="1732533392061" duration="12756000" />
+      <workItem from="1732590359626" duration="7548000" />
+      <workItem from="1732601499597" duration="4235000" />
+      <workItem from="1732609086884" duration="4000" />
+      <workItem from="1732609415047" duration="3390000" />
+      <workItem from="1732618188692" duration="1217000" />
+      <workItem from="1733033463187" duration="10914000" />
+      <workItem from="1733046162500" duration="3000" />
+      <workItem from="1733133313943" duration="700000" />
+      <workItem from="1733206256382" duration="2685000" />
+      <workItem from="1733214987629" duration="5789000" />
+      <workItem from="1733316413607" duration="2650000" />
+      <workItem from="1733569375401" duration="6590000" />
+      <workItem from="1733578692677" duration="477000" />
+      <workItem from="1733813280370" duration="622000" />
+      <workItem from="1733817918589" duration="3779000" />
+      <workItem from="1734272941514" duration="523000" />
+      <workItem from="1734352742084" duration="604000" />
+      <workItem from="1734419638867" duration="631000" />
+      <workItem from="1736330394900" duration="11789000" />
+      <workItem from="1736384731419" duration="1000" />
+      <workItem from="1736384852977" duration="7005000" />
+      <workItem from="1736400449038" duration="762000" />
+      <workItem from="1737375490690" duration="489000" />
+      <workItem from="1739364301517" duration="14000" />
+      <workItem from="1739364657998" duration="26000" />
+      <workItem from="1742638114779" duration="481000" />
+      <workItem from="1742638699650" duration="66000" />
+      <workItem from="1742638801366" duration="58000" />
+      <workItem from="1742638869322" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Maven/.m2/repository/org/springframework/spring-context/6.1.14/spring-context-6.1.14.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class</url>
+          <line>163</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Project/Service/QuestionService.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lecture/Test.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
