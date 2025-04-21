@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11e247d7-1d29-486e-af45-b2acdb32d5bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_server.log" beforeDir="false" />
+    <list default="true" id="11e247d7-1d29-486e-af45-b2acdb32d5bd" name="Changes" comment="delete ./.idea">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Eric050505&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Eric050505/SUSTech-Course-CS209A.git&quot;,
+    &quot;accountId&quot;: &quot;ad56402a-9908-4f08-8a72-b5a1cdc2e3d9&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -134,14 +140,14 @@
     &quot;Spring Boot.ApplicationLauncher.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Users/Eric/IdeaProjects/CS203&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/GitHubLab/SUSTech-CS209A&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;E:/Users/Eric/IdeaProjects/CS209AM/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
@@ -179,7 +185,10 @@
   </component>
   <component name="RunManager" selected="Application.ApplicationLauncher">
     <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Project.ApplicationLauncher" />
+      <module name="SUSTech-CS209A" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Project.*" />
@@ -290,6 +299,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SUSTech-CS209A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SUSTech-CS209A" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration name="ApplicationLauncher" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="CS209A" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="Project.ApplicationLauncher" />
@@ -298,17 +318,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ApplicationLauncher" />
       <item itemvalue="Application.GameClient1" />
       <item itemvalue="Application.GameClient2" />
       <item itemvalue="Application.GameClient3" />
       <item itemvalue="Application.GameClient4" />
       <item itemvalue="Application.Lab.Lab9.Practice2.ChatClient2" />
-      <item itemvalue="Application.ApplicationLauncher" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="HTTP Request.generated-requests | #16" />
-      <item itemvalue="JUnit.LocalTest" />
       <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.LocalTest" />
       <item itemvalue="Spring Boot.ApplicationLauncher" />
     </list>
     <recent_temporary>
@@ -401,11 +421,29 @@
       <workItem from="1742638699650" duration="66000" />
       <workItem from="1742638801366" duration="58000" />
       <workItem from="1742638869322" duration="37000" />
+      <workItem from="1742638931546" duration="194000" />
+      <workItem from="1742639215334" duration="260000" />
+      <workItem from="1742639831554" duration="46000" />
+      <workItem from="1742639882564" duration="19000" />
+      <workItem from="1742639922070" duration="4000" />
     </task>
+    <task id="LOCAL-00001" summary="delete ./.idea">
+      <option name="closed" value="true" />
+      <created>1742639004543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742639004543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete ./.idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete ./.idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
